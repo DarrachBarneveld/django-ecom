@@ -79,6 +79,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'edo.wsgi.application'
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+
 
 SITE_ID = 1
 
